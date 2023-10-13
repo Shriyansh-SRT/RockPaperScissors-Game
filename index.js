@@ -77,8 +77,8 @@ function finalsum(usermove){
 
   document.querySelector('.moves')
     .innerHTML = `You
-    <img class="play-img" src="./images/${usermove}-emoji.png">
-    <img class="play-img" src="./images/${computerMove}-emoji.png">
+    <img class="play-img" src="/images/${usermove}-emoji.png">
+    <img class="play-img" src="/images/${computerMove}-emoji.png">
     Computer` ;
 
   document.querySelector('.message').innerHTML = 
